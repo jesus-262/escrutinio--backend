@@ -3,7 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import formsRoutes from './routes/forms.routes.js';
 import config from './config.js';
-import { pool } from './db/connection.js';
+
 dotenv.config();
 const app = express();
 
